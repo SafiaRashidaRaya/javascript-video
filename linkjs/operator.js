@@ -53,3 +53,7 @@ let dec=2;
 dec--;
 
 console.log(dec)
+
+let coba = (1-2, 2+1, 3+5);
+
+console.log(coba);

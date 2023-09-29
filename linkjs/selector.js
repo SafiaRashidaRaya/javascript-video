@@ -30,7 +30,7 @@ switch (hari) {
 
 console.log(hasil);
 
-const bulan = "april";
+const bln = "april";
 let bulan;
 
 switch (bulan) {

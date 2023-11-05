@@ -4,7 +4,7 @@ if(true){
     console.log("dijalankan jika salah");
 }
 
-let nilai = 59;
+let nilai = 60;
 let kkm = 60;
 let baik = "LULUS";
 let gagal = "TIDAK LULUS";

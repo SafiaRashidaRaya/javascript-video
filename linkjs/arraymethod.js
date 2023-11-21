@@ -6,10 +6,17 @@ let nilai = [
 ];
 
 let nama = ["Lynn", "Nox", "Leste", "Krono"];
-nama.push("Aren", "Lewis");
-nama.unshift("Ynx");
+// nama.push("Aren", "Lewis");
 
-console.log(nama.slice(0, 3));
+// nama.unshift("Ynx");
+
+// console.log(nama.slice(0, 3));
+
+let mapel = ["ipa", "bahasa", "matematika"];
+
+// console.log(nama.concat(mapel));
+
+// console.log(nama.concat(["ips", "pkn", "sejarah"]));
 
 // console.log(nama.splice(3,2));
 
@@ -18,4 +25,18 @@ console.log(nama.slice(0, 3));
 // console.log(nama.pop());
 
 // console.log(nilai[0].nama);
-console.log(nama);
+// console.log(nama);
+
+// nama.forEach(function (a){
+//     console.log(a);
+// })
+
+// nama.forEach((a) => console.log(a));
+
+// nilai.filter(function (a) {
+//   if (a.ipa >= 90) {
+//     console.log(a.nama);
+//   }
+// });
+
+nilai.filter((a) => (a.ipa >= 90 && a.matematika >= 90 ? console.log(a.nama) : null));

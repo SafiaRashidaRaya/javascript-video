@@ -21,4 +21,10 @@ function lingkaran(r){
 const tinggi = 2;
 let tabung = lingkaran(5)*tinggi;
 
-console.log(tabung);
+function lewat (a){
+    return a;
+}
+
+// console.log(tabung);
+
+console.log(lewat(3));

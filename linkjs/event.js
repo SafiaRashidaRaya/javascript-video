@@ -1,5 +1,5 @@
-function show(){
-    a = document.querySelector("p").innerText = "Ini event js.";
+function show(a){
+    a = document.querySelector("p").innerText = "Ini event js. " + a;
     console.log("Ini event js");
 }
 

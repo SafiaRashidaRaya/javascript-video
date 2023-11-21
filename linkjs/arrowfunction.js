@@ -29,14 +29,13 @@ let tampilkan = () => console.log("Sudah ditampilkan.");
 tampilkan();
 
 let pbb = () => {
-    console.log("baris satu");
-    console.log("baris due");
-    console.log("baris tiga");
-}
+  console.log("baris satu");
+  console.log("baris due");
+  console.log("baris tiga");
+};
 
 let nilai = 79;
 
-let ulangan = (nilai < 80) ? () => console.log("Tidak lulus."):() => console.log("Lulus.");
-ulangan();
-
-
+let ulangan =
+  nilai < 80 ? () => (predikat = "Tidak lulus.") : () => (predikat = "Lulus.");
+console.log(ulangan());

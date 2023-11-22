@@ -39,4 +39,24 @@ let mapel = ["ipa", "bahasa", "matematika"];
 //   }
 // });
 
-nilai.filter((a) => (a.ipa >= 90 && a.matematika >= 90 ? console.log(a.nama) : null));
+// nilai.filter((a) => (a.ipa >= 90 && a.matematika >= 90 ? console.log(a.nama) : null));
+
+// let siswa = nilai.map(function(a){
+//   return a.nama;
+// });
+
+// let siswa = nilai.map(a => return a.matematika, a.nama);
+
+// console.log(siswa);
+
+// mapel.sort();
+
+// console.log(mapel);
+
+// let hasil = nilai.reduce(function(a, b){
+//   return (a= a+b.ipa);
+// }, 0)
+
+let hasil = nilai.reduce((a, b) => return(a+=b.matematika), 0)
+
+console.log(hasil);
